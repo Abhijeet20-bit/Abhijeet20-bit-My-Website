@@ -1,0 +1,213 @@
+body{
+	font-size: 16px;
+	background-color: #FFFFFF;
+	font-family: 'Oxygen', sans-serif;
+	color:#fff;
+}
+/* Header */
+#header-nav{
+	background-color: #6b0c66;
+}
+#name h1{
+	font-size: 1.5em;
+	color:#C0C0C0;
+	text-shadow: 1px;
+	text-transform: uppercase;
+	margin-left: 50px;
+	margin-top: 0px;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+}
+#navbar-list a{
+	color:#C0C0C0;
+	font-size: 1em;
+	margin:0px 10px 10px 10px;
+	text-transform: uppercase;
+	font-family: 'Dancing Script', cursive;
+}
+#lists a{
+	text-align: center;
+}
+/* End Of Header */
+
+/* Main-content */
+.jumbotron {
+	background-color: #a425e8;
+	border-radius: 0px;	
+}
+.jumbotron img{
+	margin-bottom: 25px;
+}
+#name-tag h2,#name-tag span{
+	font-family: 'Red Rose', cursive;
+	color:#fff;
+}
+#skills h2{
+	color:#a425e8;
+	font-family: 'Red Rose', cursive;
+	font-size: 2.2em;
+	margin-bottom: 0px;
+}
+#starcolor{
+	color:#a425e8;
+	font-size: 2em;
+	margin-top: 0px;
+}
+.row{
+	margin-top: 25px;
+}
+#Web-develop, #Python, #C, #Bootstrap {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+#Web-develop span, #Python span, #C span, #Bootstrap span{
+	position: absolute;
+	bottom: 0;
+	right:0;
+	text-align: center;
+	width: 100%;
+	background-color: #a425e8;
+	color: #FBDF1B;
+	opacity: 0.8;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.6em;
+}
+#Web-develop {
+	background: url('../Img/images.jpg') no-repeat;
+	background-position: center;
+}
+#Python {
+	background: url('../Img/Python2.jpg') no-repeat;
+	background-position: center;
+}
+#Bootstrap {
+	background: url('../Img/bootstrap-4.jpg') no-repeat;
+	background-position: center;
+}
+#C {
+	background: url('../Img/Cplusplus.jpg') no-repeat;
+	background-position: center;
+}
+#project{
+	background-color: #a425e8;
+}
+#project h2{
+	font-family: 'Red Rose', cursive;
+	font-size: 2.2em;
+}
+#project h3{
+	text-align: left !important;
+	font-family: 'Red Rose', cursive;
+	text-decoration: underline;
+}
+#project p{
+	height: 210px;
+	font-size: 1em;
+	font-style: italic;
+}
+#overview h4 {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #FBDF1B;
+}
+#star2 {
+	font-size: 2em;
+}
+#Restraunt {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #028403;
+	overflow: hidden;
+	background: url('../Img/Restraunt.png') no-repeat;
+	background-position: center;
+}
+#Restraunt span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #000;
+	width: 100%;
+	text-align: center;
+	opacity: 0.8;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+.list-group {
+	height: 250px;
+	width: 100%;
+}
+#details h4{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #FBDF1B;
+}
+#details span{
+	display: block;
+	font-size: 1.4em;
+}
+#about {
+	color: #a425e8;
+}
+#about h2 {
+	font-family: 'Red Rose', cursive;
+	font-size: 2.2em;
+}
+#about p{
+	font-family: 'Red Rose', cursive;
+	font-size: 1.5em;
+	color: green;
+}
+#Contact{
+	background-color: #a425e8;
+}
+#Contact h2{
+	font-family: 'Red Rose', cursive;
+	font-size: 2.2em;
+}
+.icon-contact {
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #F39C12;
+    color: #fff;
+    border-radius: 100%;
+}
+#email-style {
+	font-family: 'Red Rose', cursive;
+	font-size: 1.5em;
+	color: #F39C12;
+}
+.footer {
+  	margin-top: 0px;
+  	padding-top: 35px;
+  	padding-bottom: 30px;
+  	background-color: #4A235A;
+  	border-top: 0;
+  	font-family: 'Red Rose', cursive;
+}
+.copyright{
+	background-color: #7D3C98;
+}
+#red {
+	color: red;
+}
+@media (max-width: 395px) {
+	#name h1 {
+		font-size: 1em;
+	}
+	#email-style {
+		font-size: 1.2em;
+	}
+	
+}
